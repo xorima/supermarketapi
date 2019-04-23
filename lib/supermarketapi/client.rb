@@ -5,6 +5,7 @@ module SupermarketApi
     include HTTParty
     base_uri Default::API_ENDPOINT
 
+    include SupermarketApi::Client::Cookbooks
     def initialize(options={})
     end
 
