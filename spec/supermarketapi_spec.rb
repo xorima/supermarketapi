@@ -1,6 +1,6 @@
-RSpec.describe Supermarket::Api do
+RSpec.describe Supermarketapi do
   it "has a version number" do
-    expect(Supermarket::Api::VERSION).not_to be nil
+    expect(Supermarketapi::VERSION).not_to be nil
   end
 
   it "does something useful" do
