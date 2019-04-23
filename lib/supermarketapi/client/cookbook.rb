@@ -4,7 +4,7 @@ module SupermarketApi
     # Methods for the Cookbook API.
     #
     # @see https://docs.chef.io/supermarket_api.html
-    module Droplets
+    module Cookbook
 
       # Show all information about a cookbook
       #
@@ -13,8 +13,8 @@ module SupermarketApi
       #
       # @return [Hashie::Mash] The properties of the cookbook.
       # @example
-      #   client.droplets
-      def cookbook(cookbook_name)
+      #   client.cookbook_info
+      def cookbook_info(cookbook_name)
         get "/cookbooks/#{cookbook_name}"
       end
     end

@@ -1,4 +1,4 @@
-require 'digital_ocean/client/cookbook'
+require 'supermarketapi/client/cookbook'
 module SupermarketApi
   class Client
 

@@ -1,10 +1,11 @@
 require 'json'
 require 'httparty'
 require 'hashie'
-require 'supermarketapi/client'
 require 'supermarketapi/version'
+require 'supermarketapi/default'
+require 'supermarketapi/client'
 
-module Supermarketapi
+module SupermarketApi
   class << self
     def client(options={})
       @client = SupermarketApi::Client.new(options) unless @client
@@ -19,4 +20,3 @@ module Supermarketapi
 
   end
 end
-
