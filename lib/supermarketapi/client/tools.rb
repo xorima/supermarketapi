@@ -13,7 +13,7 @@ module SupermarketApi
       #
       # @return [Hashie::Mash] The properties of the cookbook.
       # @example
-      #   client.tool('Berkshelf')
+      #   client.tool('berkshelf')
       def tool(tool_name)
         get "/tools/#{tool_name}"
       end
