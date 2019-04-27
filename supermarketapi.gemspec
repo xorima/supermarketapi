@@ -11,11 +11,11 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Chef Supermarket Api Gem'
   spec.description   = 'Gem to interact with the Chef Supermarket Restful API'
-  spec.homepage      = "https://github.com/xorima/supermarket-api"
+  spec.homepage      = "https://github.com/xorima/supermarketapi"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/xorima/supermarket-api"
-  spec.metadata["changelog_uri"] = "https://github.com/xorima/supermarket-api"
+  spec.metadata["source_code_uri"] = "https://github.com/xorima/supermarketapi"
+  spec.metadata["changelog_uri"] = "https://github.com/xorima/supermarketapi"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
