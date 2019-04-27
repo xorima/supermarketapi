@@ -66,11 +66,43 @@ This method searches for cookbooks. It takes the following parameters:
 
 ```ruby
 client.cookbooks(
-  :user        => 'sous-chefs',
-  :start     => 1,
-  :items   => 50,
+  :user  => 'sous-chefs',
+  :start => 1,
+  :items => 50,
   :order => :recently_updated,
 )
+```
+
+### Tools
+
+#### tool
+
+This method will return all metadata about the given tool in an hashie.mash
+
+```ruby
+client.tool('berkshelf')
+```
+
+#### tools
+
+This method will allow you to search for tools
+
+```ruby
+client.tools(
+  :query => 'berks',
+  :start => 1,
+  :items => 50,
+)
+```
+
+### Users
+
+#### user
+
+This method will return all metadata about the given user in an hashie.mash
+
+```ruby
+client.user('sous-chefs')
 ```
 
 ## Contributing

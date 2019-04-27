@@ -6,7 +6,7 @@ require "supermarketapi/version"
 Gem::Specification.new do |spec|
   spec.name          = "supermarketapi"
   spec.version       = Supermarketapi::VERSION
-  spec.authors       = ["Jason Field"]
+  spec.authors       = ["Xorima"]
   spec.email         = ["jason@avon-lea.co.uk"]
 
   spec.summary       = 'Chef Supermarket Api Gem'
